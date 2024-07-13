@@ -1,3 +1,7 @@
+-- This project is based on this YouTube video: https://youtu.be/qfyynHBFOsM?si=hg25L1imOuwmvM4J
+-- It uses the data: 'Coronavirus (COVID-19) Deaths' from Our World in Data
+-- I followed along with much of the video, but also included some queries of my own
+
 -- select data I am starting with
 select location, date, total_cases, new_cases, total_deaths, population
 from coviddeaths
