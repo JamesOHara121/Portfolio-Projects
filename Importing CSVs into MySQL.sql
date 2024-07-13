@@ -1,3 +1,5 @@
+-- Data: 'Coronavirus (COVID-19) Deaths' from Our World in Data
+-- I split the data into two CSV files, which I then loaded into MySQL using the code below
 -- With data files as large as these, the MySQL import wizard was slow to import the data and contained many errors
 -- Therefore, I had to find a different way to import the data into MySQL - using 'load data infile'
 
