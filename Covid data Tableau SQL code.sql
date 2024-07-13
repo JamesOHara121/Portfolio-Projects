@@ -1,5 +1,7 @@
 -- Below are the SQL queries I used for the Covid data Tableau project
 -- Since Tableau Public cannot directly access SQL databases, I copied the results of these queries into Excel and opened the Excel files in Tableau
+-- The Tableau project is based on this YouTube video: https://youtu.be/QILNlRvJlfQ?si=SFG5bWSQya71wnHG
+-- I followed the video as little as possible in order to build my own experience using Tableau
 
 -- Global death percentage
 select sum(new_cases) as global_cases, sum(new_deaths) as global_deaths, (sum(new_deaths)/sum(new_cases))*100 as global_death_percentage
